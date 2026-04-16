@@ -1,21 +1,27 @@
-# 📊 Sentiment Analysis Dashboard (Naive Bayes vs SVM)
+# Sentiment Analysis Dashboard (Naive Bayes vs SVM)
+
+[![Streamlit App](https://img.shields.io/badge/Streamlit-Live%20App-red)](https://sentiment-analysis-nb-svm-dashboard.streamlit.app)
+[![Python](https://img.shields.io/badge/Python-3.x-blue)]()
+[![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange)]()
+[![Status](https://img.shields.io/badge/Status-Completed-success)]()
 
 An end-to-end **Machine Learning project** that classifies text as **Positive (1)** or **Negative (0)** using:
 
-* 🧠 Naive Bayes
-* ⚡ Support Vector Machine (SVM)
+* Naive Bayes
+* Support Vector Machine (SVM)
 
 Includes an interactive **Streamlit dashboard** for real-time prediction and model comparison.
 
 ---
 
-## 🌐 Live Demo
+## Live Demo
 
-🔗 https://sentiment-analysis-nb-svm.streamlit.app/
+**Live Application:**  
+https://sentiment-analysis-nb-svm-dashboard.streamlit.app
 
 ---
 
-## 🚀 Features
+## Features
 
 * TF-IDF based text vectorization
 * Two ML models (Naive Bayes & SVM)
@@ -27,7 +33,7 @@ Includes an interactive **Streamlit dashboard** for real-time prediction and mod
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 SentimentAnalysisProject/
@@ -55,54 +61,54 @@ SentimentAnalysisProject/
 
 ---
 
-## 📊 Results
+## Results
 
 | Model       | Accuracy |
 | ----------- | -------- |
 | Naive Bayes | 87.52%   |
 | SVM         | 90.17%   |
 
-👉 **SVM performs better overall**
+**SVM performs better overall**
 
 ---
 
-## 🖥️ Application Screenshots
+## Application Screenshots
 
 ### 🔹 Model Performance Dashboard
-
+![Dashboard](assets/dashboard.png)
 ---
 
 ### 🔹 Accuracy Comparison
-
+![Accuracy](assets/accuracy.png)
 ---
 
 ### 🔹 Confusion Matrices
-
+![Confusion Matrix](assets/confusion.png)
 ---
 
 ### 🔹 Detailed Metrics
-
+![Metrics](assets/metrics.png)
 ---
 
 ### 🔹 Live Sentiment Prediction
-
+![Live Prediction](assets/live_prediction.png)
 ---
 
-## ▶️ How to Run
+## How to Run
 
-### 1️⃣ Install dependencies
+### Install dependencies
 
 ```
 pip install pandas scikit-learn matplotlib seaborn streamlit
 ```
 
-### 2️⃣ Train models
+### Train models
 
 ```
 python src/main.py
 ```
 
-### 3️⃣ Run Streamlit app
+### Run Streamlit app
 
 ```
 streamlit run app.py
@@ -116,7 +122,7 @@ http://localhost:8501
 
 ---
 
-## 🧪 Example Inputs
+## Example Inputs
 
 **Positive**
 
@@ -132,7 +138,7 @@ http://localhost:8501
 
 ---
 
-## 🧠 Approach
+## Approach
 
 * Text preprocessing
 * TF-IDF vectorization
@@ -147,7 +153,7 @@ http://localhost:8501
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * Python
 * Scikit-learn
@@ -157,13 +163,13 @@ http://localhost:8501
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 **Dhanvi Annam**
-B.Tech CSE 
+B.Tech Computer Science Engineering  
 
 ---
 
-## 📜 License
+## License
 
 For academic and learning purposes.
