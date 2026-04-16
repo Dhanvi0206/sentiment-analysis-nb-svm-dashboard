@@ -1,0 +1,24 @@
+# Ignore dataset files (optional)
+dataset/
+*.zip
+
+# DO NOT ignore CSV if your app needs it
+# *.csv   ← REMOVE THIS if movie_data.csv is required
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore environment folders
+env/
+venv/
+
+# Ignore Streamlit cache
+.streamlit/
+
+# Ignore temporary files
+*.log
+*.tmp
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
